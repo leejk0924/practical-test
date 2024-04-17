@@ -16,6 +16,9 @@ public class CafeKiosk {
     public void remove(Beverage beverage) {
         beverages.remove(beverage);
     }
+    public void clear() {
+        beverages.clear();
+    }
 
     public int calculateTotalPrice() {
         int totalPrice = 0;
